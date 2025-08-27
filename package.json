@@ -24,6 +24,13 @@
         "scopeName": "source.me10",
         "path": "./syntaxes/me10.tmLanguage.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "me10-icons",
+        "label": "ME10 Icons",
+        "path": "./icons/me10-icon-theme.json"
+      }
     ]
   },
   "repository": {

@@ -1,0 +1,8 @@
+{
+  "iconDefinitions": {
+    "_file": { "iconPath": "./icons/me10-icon.png" }
+  },
+  "fileExtensions": {
+    "m": "_file"
+  }
+}

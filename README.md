@@ -9,7 +9,10 @@ This extension provides basic syntax highlighting for the **CoCreate ME10 2008 m
 ## Installation
 
 ### From VSIX (local)
-1. Download the `.vsix` file from [Releases](https://github.com/<tuo-utente>/cocreate-me10-vscode/releases).
+1. generate the `.vsix` file with 
+   ```bash
+   vsce.cmd package
+
 2. Run:
    ```bash
    code --install-extension cocreate-me10-1.0.0.vsix

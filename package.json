@@ -1,0 +1,29 @@
+{
+  "name": "cocreate-me10",
+  "displayName": "CoCreate me10 Language Support",
+  "description": "Syntax highlighting for CoCreate me10 macro language",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "me10",
+        "aliases": ["CoCreate me10", "me10"],
+        "extensions": [".m"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "me10",
+        "scopeName": "source.me10",
+        "path": "./syntaxes/me10.tmLanguage.json"
+      }
+    ]
+  }
+}

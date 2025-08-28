@@ -51,17 +51,6 @@
     "strings": {
       "patterns": [
         {
-          "name": "string.quoted.double.me10",
-          "begin": "\"",
-          "end": "\"",
-          "patterns": [
-            {
-              "name": "constant.character.escape.me10",
-              "match": "\\\\."
-            }
-          ]
-        },
-        {
           "name": "string.quoted.single.me10",
           "begin": "'",
           "end": "'",

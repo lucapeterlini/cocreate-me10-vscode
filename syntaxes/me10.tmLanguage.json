@@ -49,31 +49,19 @@
       ]
     },
     "strings": {
-      "patterns": [
-        {
-          "name": "string.quoted.single.me10",
-          "begin": "'",
-          "end": "'",
-          "patterns": [
-            {
-              "name": "constant.character.escape.me10",
-              "match": "\\\\."
-            }
-          ]
-        },
-        {
-          "name": "string.quoted.single.me10",
-          "begin": "\"",
-          "end": "\"",
-          "patterns": [
-            {
-              "name": "constant.character.escape.me10",
-              "match": "\\\\."
-            }
-          ]
-        }
-      ]
+  "patterns": [
+    {
+      "name": "string.quoted.single.me10",
+      "begin": "'",
+      "end": "'"
     },
+    {
+      "name": "string.quoted.double.me10",
+      "begin": "\"",
+      "end": "\""
+    }
+  ]
+},
     "numbers": {
       "patterns": [
         {
@@ -131,14 +119,6 @@
         {
           "name": "keyword.operator.arithmetic.me10",
           "match": "\\+|\\-|\\*|\\/|\\^"
-        }
-      ]
-    },
-    "variables": {
-      "patterns": [
-        {
-          "name": "variable.other.me10",
-          "match": "(?i)\\b[a-zA-Z_][a-zA-Z0-9_]*\\b"
         }
       ]
     }
